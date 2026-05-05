@@ -1,0 +1,51 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f7f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 75vh;
+  margin: 0;
+}
+
+.registration-container {
+  display: flex;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 15px 35px rgba(184, 66, 66, 0.1); /* Smoother shadow */
+  overflow: hidden;
+  max-width: 2000px;
+  height: 600px;
+  padding: 100px;
+  
+
+}
+
+.form-side, .poster-side { padding: 50px; flex: 1; }
+
+.form-side h2 { margin-bottom: 25px; color: #1a1a1a; }
+
+label { font-size: 0.65rem; font-weight: 600; color: #666; display: block; margin: 15px 0 6px; }
+
+input, select {
+  width: 100%; padding: 12px; border: 1.5px solid #e0e0e0; 
+  border-radius: 8px; transition: 0.3s; box-sizing: border-box;
+}
+
+input:focus { border-color: #495a9e; outline: none; }
+
+.btn {
+  width: 100%; padding: 14px; margin-top: 30px;
+  background: #495a9e; color: white; border: none; 
+  border-radius: 8px; font-weight: 600; cursor: pointer; transition: 0.3s;
+}
+
+.btn:hover { background: #3a487d; }
+
+.poster-side {
+  background: linear-gradient(135deg, #495a9e 0%, #2c3e50 100%);
+  color: white; display: flex; flex-direction: column;
+  justify-content: center; align-items: center; text-align: center;
+}
+
+.poster-side h2 { font-size: 2rem; margin-bottom: 15px; }
