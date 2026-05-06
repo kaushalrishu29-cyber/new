@@ -58,14 +58,14 @@ input:focus { border-color: #495a9e; outline: none; }
 .containers{
   height: 300px;
   width: 300px;
-  background-color: #e6d3d3;
+  background-color: #72cbbf;
   color: white;
   display:flex;
   justify-content: center;
   align-items: center;
   font-size:24px;
   position: relative;
-  
+  border-radius: 60%;
 
 }
 
@@ -78,10 +78,11 @@ input:focus { border-color: #495a9e; outline: none; }
   background-color: yellow;
   top:50%;
   right:-50%;
+  border-radius: 60%;
 
 }
 
-.containers::befor{
+.containers::before{
 height:300px;
   width: 300px;
   content:"";
@@ -91,5 +92,6 @@ height:300px;
   top:50%;
   right:-50%;
   z-index: -1;
+  border-radius: 60%;
 }
 
